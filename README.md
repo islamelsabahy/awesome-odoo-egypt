@@ -52,6 +52,7 @@ I searched for an OCA Egypt localization repository and did not find one. If you
 
 | Resource | Notes |
 |---|---|
+| [odoo-real-estate-addons](https://github.com/islamelsabahy/odoo-real-estate-addons) | Odoo 17 add-ons for real estate developers: units catalog and installment plans with generated payment schedules, plus a local staging setup |
 | [odoo-implementation-playbook](https://github.com/islamelsabahy/odoo-implementation-playbook) | Business-first Odoo implementation framework from discovery to hypercare, with UAT libraries for Finance, CRM & Sales, HR & Payroll, Purchase & Inventory and a real estate extension. Documentation and templates, no code |
 
 ## Third-party commercial modules
