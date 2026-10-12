@@ -35,6 +35,12 @@ All pages below belong to the Egyptian Tax Authority SDK portal and were opened 
 | [Contacts](https://sdk.invoicing.eta.gov.eg/contacts/) | How to reach the SDK team |
 | [Egyptian Tax Authority](https://www.incometax.gov.eg/) | Linked from the SDK portal as the authority's main site |
 
+Unofficial tools (not affiliated with ETA):
+
+| Resource | What it is |
+|---|---|
+| [einvoice-validator](https://github.com/islamelsabahy/einvoice-validator) ([try it in the browser](https://islamelsabahy.github.io/einvoice-validator/)) | Offline pre-flight check for ETA e-invoice JSON (v1.0 layout): missing fields, wrong enums, dates and arithmetic, in English and Arabic. Runs as a CLI or fully client-side in the browser |
+
 > The SDK home page showed a "last updated" date of 2022-12-08. Always cross-check the release notes for current behavior.
 
 ## Community and source code
@@ -53,6 +59,9 @@ I searched for an OCA Egypt localization repository and did not find one. If you
 | Resource | Notes |
 |---|---|
 | [odoo-real-estate-addons](https://github.com/islamelsabahy/odoo-real-estate-addons) | Odoo 17 add-ons for real estate developers: units catalog and installment plans with generated payment schedules, plus a local staging setup |
+| [cheque-tracker-odoo](https://github.com/islamelsabahy/cheque-tracker-odoo) | Odoo 17 module for post-dated cheques (received/deposited/cleared/bounced) that links to installment lines and marks them paid on clearing. Tested on the official Odoo 17 image in CI |
+| [Installment schedule calculator](https://islamelsabahy.github.io/odoo-real-estate-addons/) | Browser version of the `re_installment` schedule logic with PDF/CSV export; checked against the Python module on shared test vectors |
+| [arabic-contract-clause-checker](https://github.com/islamelsabahy/arabic-contract-clause-checker) ([browser version](https://islamelsabahy.github.io/arabic-contract-clause-checker/)) | First-pass checklist review of Arabic sale/lease contracts: missing clauses and risky wording. Not legal advice |
 | [odoo-implementation-playbook](https://github.com/islamelsabahy/odoo-implementation-playbook) | Business-first Odoo implementation framework from discovery to hypercare, with UAT libraries for Finance, CRM & Sales, HR & Payroll, Purchase & Inventory and a real estate extension. Documentation and templates, no code |
 
 ## Third-party commercial modules
